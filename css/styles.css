@@ -1,0 +1,172 @@
+/* Universal Rules */
+
+html {
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-family: "Lexend Mega", sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+    color: black;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/* Header bar */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* MS Logo */ 
+.header img {
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    width: 225px;
+    height: 100px;
+}
+
+/* The navigation bar*/
+ .navbar {
+    justify-content: space-around;
+    margin: auto;
+    overflow: hidden;
+}
+    
+.navbar p {
+        display: inline-block;
+        padding: 10px 10px;
+}
+
+.navbar p:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    padding-top: 35px;
+    opacity: 0.9;
+}
+
+.mission {
+    display: flex;
+    height: 300px;
+    background-image: url(https://imgproxy.fourthwall.com/vanFJiIcmfC31DkB5N55cBNtoABsd5s4Eb-62QGRs6g/w:1400/plain/https://storage.googleapis.com/popshopprod-shop-renderer-assets-q9gk7sc6/themes/assets/0a9e5b3e-8c9d-4b5a-ac48-b2486c2fb1a9/assets/image-0-image-c04df122a32188ce473128c5a0c20e52.png);
+    padding-top: 35px;
+    background-color: black;
+}
+
+.mission .content {
+    margin: auto;
+    width: 100%;
+    text-decoration: bold;
+    color: white;
+}
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+.staff {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6a9b4ee5-1e48-4649-bc25-17819f4202e1/dela96r-4b6f1756-5591-4fa7-8590-d1ed1a7562c8.png/v1/fill/w_1280,h_960,q_80,strp/melee_final_destination_background_by_cmgee_dela96r-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTYwIiwicGF0aCI6IlwvZlwvNmE5YjRlZTUtMWU0OC00NjQ5LWJjMjUtMTc4MTlmNDIwMmUxXC9kZWxhOTZyLTRiNmYxNzU2LTU1OTEtNGZhNy04NTkwLWQxZWQxYTc1NjJjOC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.JIsnIfjND1jwRQ69VhTb6kuB3MchlUl9iLkfpTUbAGo);
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.staff-member {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.staff-member img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.staff-member p {
+    color: white;
+}
+
+.contact, .copyright {
+    padding-top: 20px;
+}
